@@ -1,0 +1,1 @@
+This repository demonstrates a common React bug: an infinite loop within the useEffect hook. The bug arises from updating state with a value derived from the current state without proper dependency management. The solution showcases how to correctly implement useEffect with a dependency array to resolve this issue.
